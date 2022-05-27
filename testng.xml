@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ABDO/IdeaProjects/Techpanda">
+        <classes><class name="Tests.Home_Test">
+            <methods>
+                <include name="Test_Title_Home"/>
+            </methods>
+        </class>
+            <class name="Tests.Mobile_Page_Test">
+                <methods>
+                    <include name="Check_name"/>
+                    <include name="Names_By_Pos"/>
+                    <include name="Names_By_name"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
